@@ -1,0 +1,143 @@
+
+.nav-bar img 
+{
+    position: relative;
+    float: left;
+padding: 10px;
+width: 100px;   
+height: 100px;   
+margin-top:9px; 
+}
+/*
+.menu li{
+	float:left;
+	word-wrap: break-word;
+	list-style-type: none;
+	
+}
+.menu ul{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+    background:white;
+    position: absolute;
+}
+.menu ul li  {
+	display: inline;
+}
+
+.menu ul li a {
+
+	    padding: 2px 10px;
+    display: inline-block;
+
+   
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid white;
+}
+.menu ul li a:hover {
+    background-color:white;
+    color: #6D6D6D;
+    border-bottom:3px solid blue;
+}
+
+.nav-bar {
+    width: 100%;
+}
+.nav-container {
+    overflow: hidden;
+    margin: 2.95% auto;
+}*/
+
+.nav-bar {
+
+    width: 100%;
+}
+.nav-container {
+    overflow: hidden;
+    margin: 2.95% auto;
+}
+.nav-menu {
+  display: inline;
+}
+nav.nav-bar ul {
+  list-style: none;
+}
+.nav-list {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+.nav-list li {
+    margin: 20px;
+  float: left;
+  width:11.5%;
+}
+.nav-list li a {
+  display: block;
+  color: #f9f9f9;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+  padding: 10px 10px;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition:all 0.1s linear;
+   -moz-transition:all 0.1s linear;
+    -o-transition:all 0.1s linear;
+       transition:all 0.1s linear;
+}
+.nav-list li a:hover {
+   
+  -webkit-filter: brightness(1.3);
+  padding-top: 20px ;
+}
+#t1 {
+  background:#00ced7
+}
+#t2 {
+  background:#00bbc3
+}
+#t3 {
+  background:#00a8af
+}
+#t4 {
+  background:#00959c
+}
+#t5 {
+  background:#00889c
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .nav-container, .container {
+        background:#4f6f8f
+    }
+    .nav-menu{
+        color: #fff;
+        float: left;
+        display: block;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+    .nav-list{
+        float: left; 
+        width: 100%;
+        height: 0;
+    }
+    .nav-open {
+        height:auto
+    }
+    .nav-list li {
+        width:100%
+    }
+    .nav-list li a {
+        text-align: left;
+    }
+    .nav-list li a:hover {
+        padding-left: 36%;
+        padding-top: 30px;
+    }
+}
